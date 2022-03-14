@@ -1,4 +1,4 @@
-package com.github.LiuHanzhi;
+package io.github.liuhanzhi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
