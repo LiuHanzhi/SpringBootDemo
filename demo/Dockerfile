@@ -1,4 +1,4 @@
-FROM java:11
+FROM adoptopenjdk/openjdk11:centos
 
 COPY target/*.jar /app.jar
 
