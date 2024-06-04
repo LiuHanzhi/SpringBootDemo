@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:11
 
 COPY target/*.jar /app.jar
 
