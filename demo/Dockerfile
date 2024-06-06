@@ -1,4 +1,7 @@
-FROM adoptopenjdk/openjdk11:centos
+#FROM adoptopenjdk/openjdk11:centos
+
+# 选择一个较小的基础镜像
+FROM openjdk:8-jdk-alpine
 
 COPY target/*.jar /app.jar
 
